@@ -1,7 +1,8 @@
 import 'dotenv/config'
 import express from 'express'
 import cors from 'cors'
-import routes from './routes'
+import routes from './Routes'
+import { AppDataSource } from './data-source'
 
 const app = express()
 app.use(express.json())
